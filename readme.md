@@ -1,7 +1,5 @@
 # W3CH5 - Sergio Mata
 
-![Logo Pokémon](pokemon-logo.svg)
-
 ## Pokémon
 
 Esta aplicación tendrá tres páginas:
