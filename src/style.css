@@ -10,21 +10,22 @@ body {
   font-family: 'VT323', monospace;
   margin: 0;
   background: radial-gradient(circle, rgb(156, 156, 97), beige, white);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 header {
   font-size: 4rem;
   text-transform: uppercase;
   color: black;
-  text-align: center;
   min-height: 15rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-bottom: 2rem;
   padding: 0 2rem;
+}
+
+h1 {
+  font-weight: lighter;
 }
 
 header img {
@@ -54,7 +55,6 @@ li {
 }
 
 li span {
-  font-weight: bold;
   font-size: 3rem;
   text-transform: uppercase;
   margin-top: 2rem;
