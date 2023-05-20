@@ -20,7 +20,7 @@ export class List extends Component {
   }
 
   createTemplate() {
-    const list = this.pokemons.results
+    const list = this.pokemons
       .map(
         (item: { name: string; url: string }) => `
           <li>
