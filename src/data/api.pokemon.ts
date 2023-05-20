@@ -6,6 +6,7 @@ export class ApiPokemon {
 
   async getAll() {
     const response = await fetch(this.url);
-    return response.json();
+    const result = await response.json();
+    return result.results;
   }
 }
