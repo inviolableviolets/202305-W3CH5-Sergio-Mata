@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+}
+body {
+  height: 100%;
+  font-family: 'VT323', monospace;
+  margin: 0;
+  background: radial-gradient(circle, crimson, crimson, white, white);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  filter: grayscale(100%) contrast(300%);
+}
+
+main ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2rem;
+  margin: 0 2rem;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  border: 2px solid;
+  padding: 1rem;
+  min-height: 25rem;
+  background-color: white;
+  /* background-image: url('/public/texture.png'); */
+}
+
+li p {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: crimson;
+  font-family: 'VT323', monospace;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+header {
+  font-size: 4rem;
+  text-shadow: 0 0 5px white;
+  color: black;
+  min-height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  padding: 0;
+}
