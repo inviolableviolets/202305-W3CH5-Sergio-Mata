@@ -13,8 +13,6 @@ export class List extends Component {
 
   async handleLoad() {
     this.pokemons = await this.repo.getAll();
-
-    console.log(this.pokemons);
     this.template = this.createTemplate();
     this.render();
   }
@@ -33,6 +31,6 @@ export class List extends Component {
       .join('');
 
     return `
-    <section class="tasks"></section><ul>${list}</ul>`;
+    <ul>${list}</ul>`;
   }
 }
