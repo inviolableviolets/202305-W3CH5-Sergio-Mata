@@ -6,7 +6,7 @@ import { Footer } from './footer';
 describe('Given the component Footer', () => {
   document.body.innerHTML = '<slot></slot>';
   new Footer('slot');
-  const element = screen.getByRole('footer');
+  const element = screen.getByRole('contentinfo');
   describe('When it is instantiated', () => {
     test('It should render itself in the document', () => {
       expect(element).toBeInTheDocument();
